@@ -18,3 +18,8 @@ body {
 p {
 	text-indent: 50px;
 }
+
+card {
+	padding: 1rem;
+	margin: 1rem;
+}
