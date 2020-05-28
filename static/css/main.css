@@ -22,7 +22,7 @@ body {
   background-position: center top;
 }
 
-p {
+p:nth-child(1) {
   text-indent: 50px;
 }
 
@@ -36,12 +36,10 @@ div {
 }
 div ul, div ol {
   font-size: 16px;
-  color: lightgray;
-}
-div ul li, div ol li {
-  font-size: 14px;
   color: darkgray;
-  margin-top: 8px;
+}
+div ul ul {
+  color: lightgray;
 }
 
 /*# sourceMappingURL=main.css.map */
