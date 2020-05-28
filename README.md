@@ -83,3 +83,6 @@ Your stylesheets must use at least one SCSS variable, at least one example of SC
 
 In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
 	- You're reading the README.md file
+
+# BenjaminCSchmidt
+
