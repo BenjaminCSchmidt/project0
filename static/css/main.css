@@ -1,28 +1,36 @@
-h1 {
-	font-family: fantasy;
-}
-
-h1, h2, h3, h4, h5{
-	text-align: center;
-	margin: 1rem;
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  margin: 1rem;
 }
 
 body {
-	font-family: "Century Gothic";
-	background-image: url("https://raw.githubusercontent.com/BenjaminCSchmidt/project0/master/static/img/bg-img.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center top;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("https://raw.githubusercontent.com/BenjaminCSchmidt/project0/master/static/img/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 p {
-	text-indent: 50px;
+  text-indent: 50px;
 }
 
 @media (max-width: 600px) {
-	h1{
-		visibility: hidden;
-	}
-	
-
+  h1 {
+    visibility: hidden;
+  }
 }
+div {
+  font-size: 18px;
+}
+div ul, div ol {
+  font-size: 16px;
+  color: lightgray;
+}
+div ul li, div ol li {
+  font-size: 14px;
+  color: darkgray;
+  margin-top: 8px;
+}
+
+/*# sourceMappingURL=main.css.map */
