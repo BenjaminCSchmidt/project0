@@ -1,3 +1,14 @@
+.page-title {
+  font-weight: bold;
+  text-shadow: 2px 2px darkgray;
+  text-shadow: 4px 4px lightgray;
+}
+
+#table_services {
+  border-color: lightgray;
+  border-width: 2px;
+}
+
 h1, h2, h3, h4, h5 {
   text-align: center;
   margin: 1rem;

@@ -2,6 +2,21 @@ $primary-color: lightgray;
 $secondary-color: darkgray;
 $font: "Courier New", Courier, monospace;
 
+%fancy-text {
+	font-weight: bold;
+	text-shadow: 2px 2px $secondary-color;
+	text-shadow: 4px 4px $primary-color;
+}
+
+.page-title {
+	@extend %fancy-text;
+}
+
+#table_services {
+	border-color: $primary-color;
+	border-width: 2px;
+}
+
 h1, h2, h3, h4, h5{
 	text-align: center;
 	margin: 1rem;
